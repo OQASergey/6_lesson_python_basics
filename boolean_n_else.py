@@ -31,16 +31,16 @@ else:
 #===============
 print('=======')
 
-print(bool(123))
-print(bool(-100))
-print(bool(0))
+print(bool(123), '- (123)')
+print(bool(-100), '- (-100)')
+print(bool(0), '- (0)')
 
-print(bool('Hello, world!'))
-print(bool(" "))
-print(bool(""))
+print(bool('Hello, world!'), '- (Hello, world!)')
+print(bool(" "), '- (" ")')
+print(bool(""), '- ("")')
 
-print(bool([1,2,3]))
-print(bool([1, 2, 2, 3]))
-print(bool([]))
-print(bool([False]))
-print(bool([True]))
+print(bool([1,2,3]), '- ([1,2,3]')
+print(bool([1, 2, 2, 3]), '- ([1, 2, 2, 3])')
+print(bool([]), '- ([])')
+print(bool([False]), '- ([False])')
+print(bool([True]), '- ([True])')
