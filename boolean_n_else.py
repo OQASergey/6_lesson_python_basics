@@ -14,6 +14,8 @@ else:
 
 # if/elif/else
 
+code = 200
+
 if code < 400:
     print('хороший код')
 
@@ -26,3 +28,19 @@ elif code >= 500:
 else:
     print('что-то произошло')
 
+#===============
+print('=======')
+
+print(bool(123))
+print(bool(-100))
+print(bool(0))
+
+print(bool('Hello, world!'))
+print(bool(" "))
+print(bool(""))
+
+print(bool([1,2,3]))
+print(bool([1, 2, 2, 3]))
+print(bool([]))
+print(bool([False]))
+print(bool([True]))
