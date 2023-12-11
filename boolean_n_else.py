@@ -54,3 +54,18 @@ if user_list:
     print('pass')
 else:
     print('fail')
+
+#None
+#====
+print('=====')
+d = {"key": "value"}
+
+ak = "id"
+n = d.get('other')
+
+print(n)
+
+if n:
+    print('pass')
+else:
+    print('fail')
