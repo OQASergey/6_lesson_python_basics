@@ -58,3 +58,12 @@ print('===')
 for (key, value) in a.items():
     print(key, value)
 
+#break, range
+
+print('====')
+b = range(10)
+
+for i in b:
+    print(i)
+    if i == 7:
+        break
