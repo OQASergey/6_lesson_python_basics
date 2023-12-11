@@ -20,7 +20,7 @@ if code < 400:
 elif 400 <= code < 500:
     print ('плохой код')
 
-elif >= 500:
+elif code >= 500:
     print('плохо серверу')
 
 else:
