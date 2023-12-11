@@ -44,3 +44,13 @@ print(bool([1, 2, 2, 3]), '- ([1, 2, 2, 3])')
 print(bool([]), '- ([])')
 print(bool([False]), '- ([False])')
 print(bool([True]), '- ([True])')
+
+#===============
+print('=======')
+
+user_list = [2]
+
+if user_list:
+    print('pass')
+else:
+    print('fail')
