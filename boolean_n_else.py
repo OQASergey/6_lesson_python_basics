@@ -11,3 +11,18 @@ if not True:
 
 else:
     print('Ложь')
+
+# if/elif/else
+
+if code < 400:
+    print('хороший код')
+
+elif 400 <= code < 500:
+    print ('плохой код')
+
+elif >= 500:
+    print('плохо серверу')
+
+else:
+    print('что-то произошло')
+
