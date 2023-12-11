@@ -71,7 +71,19 @@ for i in b:
 #continue
 print('====')
 
-for i in  b:
+for i in b:
     if i % 2 == 1:
         continue
     print(i)
+
+    #[start, end, step]
+    print('====')
+
+    c = range(5, 25, 4)
+    for i in c:
+        if i == 14:
+            print('число 14 есть')
+            break
+        else:
+            print('числа 14 нет')
+        print(i)
