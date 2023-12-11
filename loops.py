@@ -35,3 +35,26 @@ for games in TRPG:
     if games["id"] == rn:
         print(games['title'])
 
+print('=====')
+
+a = {
+    "key":1,
+    "title":"pbta",
+    "type":"hobby",
+    "style":"storygame"
+}
+
+for words in a:
+    print(words) #- ключи
+
+for key in a.keys():
+    print(key)
+
+for value in a.values():
+    print(value)
+
+print('===')
+
+for (key, value) in a.items():
+    print(key, value)
+
