@@ -64,6 +64,14 @@ print('====')
 b = range(10)
 
 for i in b:
-    print(i)
     if i == 7:
         break
+    print(i)
+
+#continue
+print('====')
+
+for i in  b:
+    if i % 2 == 1:
+        continue
+    print(i)
