@@ -36,7 +36,7 @@ def fcc(line, symbol=None):
 fcc('aloha')
 fcc('aloha', 'Eahhh!')
 
-#Возвращение одно значение
+#Возвращение одного значения
 print('===')
 def fd(a, b, c):
     return a+b-c
