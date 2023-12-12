@@ -108,3 +108,13 @@ print('***')
 for i, cities in enumerate(all_cities):
     print(f'{cities} на {i+1} месте текущего списка')
 
+print('====')
+rand_list = [{'a', '111'}, {'b', '222'}, {'c', '333'}, {'d', '444'}]
+for i, list in rand_list:
+        print(i, list)
+
+print('***')
+rand_list = [('a', '111'), ('b', '222'), ('c', '333'), ('d', '444')]
+
+for i, list in rand_list:
+        print(i, list)
