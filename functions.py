@@ -60,8 +60,26 @@ a,b,*_ = fff
 print(a,b)
 
 print('===')
-def ffa(*abc):
-    print(abc)
-ffa('hi','my','friend')
+def ffa(*abcs):
+    for abc in abcs:
+        print(abc)
+ffa('hi','my','friends')
+
+def ffa(*abcds):
+    print(*abcds)
+ffa("1","2",'3')
+
+print('===')
+def ffb(*words):
+    print(words)
+    print(*words)
+    print(*words, sep="")
+ffb('hello', 'my', 'dearest', 'dudes')
+
+print('===')
+def ffg(**afsd):
+    for item in afsd.values():
+        print(item)
+ffg(first='hello', second='world')
 
 
