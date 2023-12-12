@@ -81,9 +81,10 @@ for i in b:
 
     c = range(5, 25, 4)
     for i in c:
-        if i == 14:
-            print('число 14 есть')
+        if i == 17:
+            print('***')
+            print('число 17 есть')
             break
         else:
-            print('числа 14 нет')
+            print('числа 17 нет')
         print(i)
