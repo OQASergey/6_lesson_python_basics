@@ -91,3 +91,25 @@ def func():
 func()
 print(n)
 
+#функция - объект
+print('===')
+
+from pprint import pprint
+TRPGs = [{"id":1, "title":"Apocalypse World"},
+        {"id":2, "title":"Dungeon World"},
+        {"id":3, "title":"Urban Shadows"},
+        {"id":4, "title":"MonsterHearts"},
+        {"id":5, "title":"MASKs"},
+        {"id":6, "title":"Glitter Heart"},
+        {"id":7, "title":"The veil"},
+        {"id":8, "title":"SCUB"},
+        {"id":9, "title":"Hum4n1ty Zer0"},
+        {"id":10, "title":"Грань Вселенной"}]
+pprint(TRPGs)
+print(TRPGs[1].get('title'))
+
+def sorts(t):
+    return t['title']
+
+TRPGs.sort(key=sorts)
+pprint(TRPGs)
