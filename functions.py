@@ -82,4 +82,12 @@ def ffg(**afsd):
         print(item)
 ffg(first='hello', second='world')
 
+#Области видимости аргументов
+print('===')
+n = 10
+def func():
+    n=15
+    print(n)
+func()
+print(n)
 
