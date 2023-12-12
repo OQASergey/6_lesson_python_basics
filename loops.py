@@ -88,3 +88,23 @@ for i in b:
         else:
             print('числа 17 нет')
         print(i)
+
+#enumerate
+print('====')
+
+all_cities = ['Сочи', 'Москва', 'Ярославь', 'Екатеринбург', 'Самара', 'Казань']
+#az_cities = all_cities.sort()
+
+for cities in all_cities:
+    print('Изначальный список: ', cities)
+
+print('***')
+
+for i, cities in enumerate(all_cities):
+    print(i, cities)
+
+print('***')
+
+for i, cities in enumerate(all_cities):
+    print(f'{cities} на {i+1} месте текущего списка')
+
