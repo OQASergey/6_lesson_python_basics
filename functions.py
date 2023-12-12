@@ -44,7 +44,24 @@ aa = fd(2,3,4)
 print(aa)
 assert aa == 1
 
+#Возвращение нескольких значений
+print('===')
+def ff():
+    return 2,4,8,16
+fff = ff()
+print(fff)
+print('***')
+#a,b,c,d = fff
+#print(a,b,c,d)
+#a,_,c,d = fff
+#print(a,c)
 
+a,b,*_ = fff
+print(a,b)
 
+print('===')
+def ffa(*abc):
+    print(abc)
+ffa('hi','my','friend')
 
 
